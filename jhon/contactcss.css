@@ -1,0 +1,251 @@
+/*contenido*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border box;
+}
+/*encabesado*/
+body{
+
+	background-image: radial-gradient(circle at 50% 50%, 
+		#c0b449 0, #caad44 5.56%, #d2a53f 11.11%, #d99c3c 16.67%, #df923a 22.22%,
+		 #e48639 27.78%, #e8793a 33.33%, #ea6a3c 38.89%, #ea583f 44.44%, #e94343 50%,
+		  #e62849 55.56%, #e30051 61.11%, #de005b 66.67%, #d70066 72.22%, #cf0073 77.78%,
+		   #c40081 83.33%, #b70090 88.89%, #a7009f 94.44%, #9400ad 100%);
+ /*#E8E4E4*/
+  font-family: georgia;
+  font-size: 1.2rem;
+  line-height: 1.4em;
+}
+p{
+  text-align: justify;
+  color: white;
+  padding: 10px 0;
+}
+
+#google{
+	padding-top: 200px;
+	padding-left: 400px;height:1000px;
+}
+.containe {
+	width: 95%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+.header{
+	background: #333;
+	color: white;
+	padding: 2rem;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+	.header a{
+		color: white;
+		text-decoration: none;
+	}
+.logo-nav-conteiner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	.navigation ul li{
+		display: inline-block;
+	}
+		.navigation ul li a{
+			display: block;
+			padding: 0.5rem 0.5rem;
+			transition:  all 0.6s linear;
+			border-radius: 8px;
+		}
+			.navigation ul li a:hover {
+			background: #4D4D4D;
+			}
+.main{
+	padding-top: 12rem;
+	padding-bottom: 10rem;
+}
+/*encabesado fin*/
+textarea {
+	width: 100%;
+	margin-bottom: : 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: 1px solid #252424;
+}
+textarea {
+	min-height: 100px;
+	max-height: 130px;
+	max-height: 200px;
+	min-height: 100px;
+}
+.registro { 
+	width: 400px;
+	background: #716C6C;
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 3px;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+}
+.registro h4{
+	font-size: 22px;
+	margin-bottom: 20px;
+	background-color: #716C6C;
+}
+.registro p{
+	background-color: #716C6C;
+}
+.control{
+	width: 100%;
+	background: white;
+	padding: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #252424;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.registro a:hover {
+	color: red;
+	text-decoration: underline;
+}
+.boton-gris{
+	width: 10%;
+	background: #111;
+	border: none;
+	padding: 12px;
+	border-radius: 3px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	box-shadow: 0px 3px 0px white;
+}
+.registro .control-men{
+	width: 400px;
+	height: 80px;
+	background: white;
+	padding: 4px;
+	margin-bottom: 16px;
+	border: 1px solid white;
+	font-family: sans-serif;
+	font-size: 16px;
+	border-color: #252424;
+}
+footer{
+	background: #111;
+	height: 100px;
+	width: 100%;
+	font-family: sans-serif;
+	padding-top: 70px;
+	padding-bottom: 80px;
+	color: #fff;
+	margin: 0;
+}
+:root{
+	--facebook: #3d5999;
+	--instagram:#64405f;
+	--twitter: #55acee;
+	--pinterest: #bd081c;
+	--linkedin: #0077B5;
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footerh3{
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: white;
+}
+
+.redes-container ul li{
+	display: inline-block;
+	margin: 2px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+.redes-container{
+	display: flex;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+}	
+.redes-container ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	line-height: 50px;
+	font-size: 18px;
+	box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2)
+	transition: .2s;
+}
+.redes-container ul:hover a{
+	filter: blur(2px);
+}
+.redes-container ul li a:hover{
+	transform: translateY(-3px) scale=(1.05);
+	box-shadow: 0 5px 5px 0px  rgba(0, 0, 0, .4);
+	filter: none;
+}
+
+.redes-container ul li .facebook{
+	background: var(--facebook)
+}
+.redes-container ul li .instagram{
+	background: var(--instagram)
+}
+.redes-container ul li .twitter{
+	background: var(--twitter)
+}
+#google {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	display: inline-block;
+}
+
+@media (max-width: 1000px){
+	.header{
+		margin: auto;
+		padding-left: 0.1px;
+	}
+	.logo-nav-conteiner{
+		display: inline-block;
+		text-align: center;
+
+		padding-left: 10px;
+	}
+	.registro {
+		width: 80%;
+	}
+	.logo-respon {
+		width: 85%;
+	}
+	.main{
+	padding-top: 15rem;
+	padding-bottom: 10rem;
+	}
+	.frame div{
+		width: auto;
+		display: flex;
+		background-color: ;
+		;
+	}
+}
+
